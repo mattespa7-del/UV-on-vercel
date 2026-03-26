@@ -25,8 +25,9 @@
     "node": ">=18.0.0"
   },
   "scripts": {
+    "dev": "node index.js",
     "build": "npm install --global @tomphttp/bare-server-node",
-    "start": "npx bare-server-node"
+    "start": "node index.js"
   },
   "dependencies": {
     "@tomphttp/bare-client": "^2.2.0-alpha",
